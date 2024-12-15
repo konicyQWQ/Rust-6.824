@@ -5,7 +5,7 @@ The goal is to closely replicate the original experiment's code framework and te
 
 ## Lab 1: MapReduce
 
-1. implement the `src/mr/coodinator.rs` and `src/mr/worker.rs` code (see marco `unimplement!()`). 
+1. implement the `src/mr/coodinator.rs` and `src/mr/worker.rs` code (see marco `unimplemented!()`). 
 2. using `bash script/test-mr.sh` to test your code.
 
 ## WIP
