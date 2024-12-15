@@ -1,0 +1,12 @@
+[package]
+name = "rust-6824"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+futures = "0.3"
+tarpc = { version = "0.35", features = ["full"] }
+tokio = { version = "1.0", features = ["full"] }
+itertools = "0.13.0"
+serde = "1.0.216"
