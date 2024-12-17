@@ -6,14 +6,17 @@ use std::{env, fs};
 
 fn main() {
     let args: Vec<String> = env::args().collect();
-    let map_reduce = get_map_reduce("wc").unwrap();
+    let map_reduce_name = args
+        .get(1)
+        .expect("Usage: ./mrSequential <mapreduce_name> <input_file>...");
+    let map_reduce = get_map_reduce(map_reduce_name).unwrap();
 
     let mut kvs: Vec<KeyValue> = vec![];
 
     // read each input file,
     // using map function to split word,
     // append to kvs vector
-    for filename in &args[1..] {
+    for filename in &args[2..] {
         let mut contents = String::new();
 
         fs::File::open(filename)
