@@ -10,8 +10,8 @@ The goal is to closely replicate the original experiment's code framework and te
 
 ## WIP
 
-- [ ] Lab 1: MapReduce
+- [x] Lab 1: MapReduce
   - [x] basic framework (coordinator and worker) 
   - [x] word count test case
-  - [ ] other complex test case
+  - [x] other complex test case
 - [ ] Lab 2: ....
