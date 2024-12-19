@@ -14,4 +14,6 @@ The goal is to closely replicate the original experiment's code framework and te
   - [x] basic framework (coordinator and worker) 
   - [x] word count test case
   - [x] other complex test case
-- [ ] Lab 2: ....
+- [ ] Lab 2: KV Server
+  - [x] basic framework (labrpc, client and server)
+  - [ ] test case
